@@ -152,17 +152,22 @@ section:nth-child(3){
     position: relative;
 }
 #carrousel #container{
-    width: 1600px;
+    width: 3200px;
     display: flex;
     justify-content: space-between;
 }
 .card,
 .card img{
-    width: 190px;
+    width: 100%;
+}
+
+.card h2 {
+    text-align: center;
 }
 .cardContent{
     margin: 10px;
 }
+
 .card button{
     width: 100%;
     padding: 10px;
@@ -173,6 +178,7 @@ section:nth-child(3){
 }
 .cardContent p{
     margin: 10px;
+    display: none;
 }
 .btn{
     position: absolute;
